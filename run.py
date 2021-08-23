@@ -5,6 +5,6 @@ if sys.version[0:3] != "3.9":
 
 if __name__ == "__main__":
   try:
-    __import__("delta17").main()
+    __import__("delta17")
   except Exception as e:
     exit(str(e))
